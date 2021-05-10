@@ -11,3 +11,7 @@ go mod init example.com/hello
 
 go run .
 ```
+
+#### Main Repo path
+
+https://github.com/Arkaraj/Letz_Go/tree/main/src/gihub.com/Arkaraj/letz_go/
