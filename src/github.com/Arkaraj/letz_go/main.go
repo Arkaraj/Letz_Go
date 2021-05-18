@@ -26,14 +26,22 @@ func main () {
 	
 	// floyd(10)
 
+	// Float - IEEE standards => 32bit floating point nos & 64 bits...
+
 	var i int = 64
 	j := float64(i)
 	k := strconv.Itoa(i)
+	sez := 8 // 2^3
+	var pi float64 = 3.14
+	pi = 13.7e72
 	t := true
 
 	if t {
 		fmt.Printf("%v, %T\n", i, i)
 		fmt.Printf("%v, %T\n", math.Sqrt(j) , j)
 		fmt.Printf("%s, %T\n", k , k)
+		fmt.Println(sez << 3) // 2^3 * 2^3
+		fmt.Println(sez >> 3) // 2^3 / 2^3
+		fmt.Printf("%v , %T\n", pi, pi)
 	}
 }
