@@ -14,4 +14,4 @@ go run .
 
 #### Main Repo path
 
-https://github.com/Arkaraj/Letz_Go/tree/master/src/gihub.com/Arkaraj/letz_go/
+https://github.com/Arkaraj/Letz_Go/tree/master/src/github.com/Arkaraj/letz_go/
