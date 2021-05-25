@@ -31,6 +31,10 @@ func main()  {
 	* Changes made to copy of the map will change the original map
 	*/
 
+	if pop2,okk := studentMarks["L"]; okk {
+		fmt.Println(pop2) // shows value of "L"
+	}
+
 	rmvD := studentMarks
 	delete(rmvD, "D")
 

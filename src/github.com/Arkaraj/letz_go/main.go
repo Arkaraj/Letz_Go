@@ -14,7 +14,7 @@ func floyd(num int) {
 
 	var k int = 1
 	for i := 1; i <= num; i++ {
-		for j := 1; j <= i; j++ {
+		for j := 1; j <= i; j++ { // j,k = j+1, k+1
 			fmt.Printf("%d ", k)
 			k ++
 		}
