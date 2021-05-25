@@ -5,10 +5,8 @@ import (
 )
 
 
-
-
 func main()  {
-	
+
 	// Map => Key value 
 	studentMarks := map[string]int32{
 
