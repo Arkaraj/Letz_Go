@@ -18,6 +18,7 @@ func sayHello() {
 var wg = sync.WaitGroup{}
 var counter int = 0
 // OS read-write mutex
+// Protect data access
 var m = sync.RWMutex{}
 
 func main()  {
